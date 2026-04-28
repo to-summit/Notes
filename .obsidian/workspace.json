@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "2b6f50bd29882619",
+    "type": "split",
+    "children": [
+      {
+        "id": "2561c2f12fb8df10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9ddc400fa6eb29f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0d5462b7d396f10",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed87b95512ae0be2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e310f74c4274f866",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0343efcf0045a1a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "075ceef7670c170c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3cdb42f19014ce95",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b8b1571aa6276c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153110e2ded27abb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fourier Analysis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Fourier Analysis"
+            }
+          },
+          {
+            "id": "742f9efbd4a13100",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Why DLinear perform better than complex model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Why DLinear perform better than complex model"
+            }
+          },
+          {
+            "id": "9c41c1f101d315d2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "945f3b589c57fbea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9183e944fa45c7b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Why DLinear perform better than complex model.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Why DLinear perform better than complex model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d9ddc400fa6eb29f",
+  "lastOpenFiles": [
+    "Abstract Algebra/Groups and Subgroups.md",
+    "Abstract Algebra/Dependency Chart.png",
+    "Abstract Algebra/A First Course in Abstract Algebra.md",
+    "Financial Engineering/基本理论和分析方法.md",
+    "Financial Engineering/Introduction.md",
+    "Reading Notes/Smash the Stack.md",
+    "Reading Notes/figures/process layout.png",
+    "Reading Notes/April 18.md",
+    "Reading Notes/figures/Technology.png",
+    "Reading Notes/figures",
+    "ODD THOUGHS.md",
+    "Financial Engineering",
+    "Reading Notes/figures/Presentation.png",
+    "Reading Notes/figures/Personal.png",
+    "Reading Notes",
+    "知乎阅读笔记.md",
+    "Operating System/Main Bootstrap.md",
+    "Stochastic Process/Why DLinear perform better than complex model.md",
+    "Stochastic Process/Fourier Analysis.md",
+    "Stochastic Process",
+    "Operating System/OS persistent storage hardware basis.md",
+    "Operating System/OS persistence filesystem.md",
+    "Operating System/OS Memory Management.md",
+    "Operating System",
+    "Untitled.md",
+    "Abstract Algebra",
+    "Pasted image 20260410210012.png",
+    "Pasted image 20260410205956.png",
+    "Welcome.md"
+  ]
+}
