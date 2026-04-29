@@ -29,4 +29,47 @@ $U_n = \{z\in\mathbb{C} \mid z^n = 1\}$ is called $n^{th}\text{ root of unity}$,
 |  d  |  a  |  b  |  b  |  c  |
 
 ### Isomorphic Binary Structures
+We have seen many binary operations. Many of them have the same *structural property*. It's time to give a definition for **isomorphism:** An isomorphism of $S$ and $S'$ is a *one-to-one function* $\phi$ mapping $S$ *onto* $S'$ such that: $$\phi(x * y) = \phi(x) *' \phi(y)\text{ for all x, y} \in S$$ we call this ***homomorphism property***. The *homomorphism* is not necessary an *isomorphism*. If we can find such a function, we can infer that $S$ and $S'$ are ***isomorphic binary structure***. Simply denoted as $$ S \simeq S' $$
+#### How to Show That Binary Structures Are Isomorphic
+1. *Define a function $\phi$ gives the isomorphism of $S$ with $S'$* ($\forall x\in S,\text{ what is } \phi(x)\text{ to be}$)
+2. *Show that $\phi$ is one-to-one function* ($\phi(x)=\phi(y) \Rightarrow x = y$)
+3. *Show that $\phi$ is onto $S'$* ($\forall s \in S', \exists x \in S\text{ satisfy }\phi(x) = s$)
+4. *Show that $\phi(x*y) = \phi(x)*'\phi(y)$* (show two sides is equal)
+
+#### How to Show That Binary Structures Are Not Isomorphic
+1. *Show that $S$ and $S'$ don't have the same cardinality*.
+    > **Hint** you can't show this by indicate $S' \subset S$, think of $\mathbb{Z}$ and $2\mathbb{Z}$.
+2. What if they indeed have the same cardinality? *We can think about show that some structural property in $S$ is not the $S'$ possesses*. Here is an amazing example and some usual properties: 
+![[example-and-properties.png]] 
+> 	**Hint** , if exists identity element is a structural property.
+
+### Groups
+How to apply these binary operations to the solution of problems?
+From solving a linear equation. How can we solve $$a + 5 = 2, b\times 2=3$$ $$a+5+(-5)=2+(-5),  b\times 2\times \frac{1}{2}= 3\times\frac{1}{2}$$
+$$a+0 = -3, b\times1 = \frac{3}{2}$$
+$$a = -3, b = \frac{3}{2}$$
+In order to solve an equation, we need to have **inverse $x'$($-5,\frac{3}{2}$), identity $e$($0, 1$), commutative.** We naturally define a binary operations, having these structural properties, and its underlying set is a **group**.
+
+***FORMALLY DEFINITION*** : A group $\langle G, *\rangle$ is a **set** $G$, closed under a binary operation, satisfying following axioms:
+$$\mathcal{G}_1: \forall a, b, c \in G, (a*b)*c = a*(b*c) \Rightarrow \text{associativity of } *$$ 
+$$\mathcal{G}_2: \exists e\in G, \forall x\in G, x*e= e*x = x \Rightarrow\text{identity element of }*$$
+$$\mathcal{G}_3:\forall a\in G, \exists a'\in G,a*a'=e \Rightarrow\text{inverse element under *}$$
+Because **isomorphism** stands for *same structural property*, we just define a group by specify some necessary property. So if $\langle G,*\rangle \simeq \langle G', *'\rangle$ and $G$ is a group, then $G'$ is definitely a group. For simplicity, a group $\langle G, *\rangle$ is denoted by $G$.
+
+A group $G$ is an **abelian** if its binary operation is commutative.
+All *invertible* $n\times n$ matrices under matrix multiplication is a group, denoted by $GL(n, \mathbb{R})$ , the so-called **general linear group of degree n.** According to *vector space*, all invertible matrix can give rise to an invertible linear transformation. We denoted this transformation by $GL(\mathbb{R}^n)$. Of course, $$GL(n,\mathbb{R}) \simeq GL(\mathbb{R}^n)$$
+Iteration-like three theorems:
+1. The **left and right cancellation laws** holds in group. That is to say $$a*b = a* c \Rightarrow b = c, b* a = c* a\Rightarrow b = c$$ This can be simply proofed b
+2. If 
+$$\forall a, b \in G, a*x= b,y*a =b$$have unique solutions $x$ and $y$ in $G$. This can be proofed by definition and last theorem. **Note** $a'b$ and $ba'$ no need to be the same unless it's an abelian.
+3.  The identity and inverse are unique in a group. The uniqueness of identity in a group is decided by the binary operation. The uniqueness of inverse can be proofed by the last two theorem and definition.
+
+**Corollary:** $$\forall a, b \in G, (a*b)' = b'*a'$$
+$\mathcal{G}_1$ can only define a **semigroup** and $\mathcal{G}_1 \wedge \mathcal{G}_2$ can only get a **monoid**. 
+We can weaken the conditions defining a group: 
+$$\mathcal{G}_1:*\text{ is associative} $$
+$$\mathcal{G}_2:\exists e_l \in G, e_l*a = a,\text{ for } \forall a \in G$$
+$$\mathcal{G}_3: \exists a'_l\in G,a'_l*a = e, \text{for }\forall a\in G$$
+### Finite Groups and Group Tables
+We have seen that we can use tables to research the finite sets. What the table will be if the set is a group? The answer is in each row and each column, any an element in $S$ must be appear **only once**. Through this conclusion, we can proof all groups with one or two or three elements are *isomorphic*. (I feel some relations with little like eight-queens question)
 
