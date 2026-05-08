@@ -35,6 +35,7 @@ n / N                  # next / previous match
 :vsp file.txt          # vertical split with file
 :sp                    # horizontal split same buffer
 Ctrl-W h/j/k/l         # navigate splits
+Ctrl-W +/-/\>/\<\=     # resize current window
 
 ### Tabs
 :tabnew file.txt
