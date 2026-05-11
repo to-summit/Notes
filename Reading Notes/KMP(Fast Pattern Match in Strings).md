@@ -1,0 +1,3 @@
+1. The algorithms forms from a very intuitional think. How we human being will do in search a pattern ?
+2. The the information we get when compare some leading characters will be store in these characters. So we need focus on this substring to do something. 
+3. The real implementation of KMP is a little like fast-slow pointer. Though the *text* pointer just increment one at a time, but it never go back. Instead, the *pattern* pointer will continuously adjust according to the current compared character to fit it.
